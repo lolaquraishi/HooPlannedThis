@@ -1,28 +1,32 @@
 body {
   background-color: #222222;
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  color: #FFFFFF;
+  font-weight: 50;
+  color: #d8d3d3;
 }
 
 
   .dashboard {
+    margin-top: 100px;
+    font-size: x-large;
     display: center;
+   
   }
   .card-container {
     display: grid;
     grid-template-columns: repeat(2, auto);
     justify-content: center;  
-    gap: 8px;                 
+    gap: 18px;                 
   }
   
   .card {
     width: 150px;             
     padding: 8px;
-    border: 1px solid rgba(255, 254, 254, 0.191);
+    border: 1px solid rgba(255, 254, 254, 0.153);
     text-align: center;
     font-size: 14px;
-    line-height: 1.2;
+    border-radius: 4px;
+    line-height: 0.5;
   }
   
 
