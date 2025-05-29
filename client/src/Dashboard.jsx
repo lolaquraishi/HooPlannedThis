@@ -10,7 +10,7 @@ function Dashboard({ user = '[User]' }) {
   
    
     return(
-    <div className="Dashboard">
+    <div className="dashboard">
       <h2>Welcome, {user}!</h2>
       <div className="card-container">
       {cards.map(card => (
