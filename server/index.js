@@ -12,3 +12,5 @@ connection.connect((err) => {
   if (err) throw err;
   console.log('Connected to amazon MySQL database');
 });
+
+
